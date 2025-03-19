@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUBAFASHE ACADEMY SCHOOL - Facilities & Safety</title>
+    <link rel="icon" href="Picture1.png" type="Image">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="Picture1.png" alt="School Logo" class="logo">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="academic-programs.html">Academics</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-trigger" onclick="toggleMobileMenu()">☰</div>
+    </header>
+
+    <nav class="mobile-nav" id="mobileNav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="academic-programs.html">Academic Programs</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="facilities.html">Facilities & Safety</a></li>
+            <li><a href="extracurricular.html">Extracurricular</a></li>
+            <li><a href="parent-resources.html">Parent Resources</a></li>
+            <li><a href="health.html">Health & Wellbeing</a></li>
+            <li><a href="policies.html">Policies</a></li>
+            <li><a href="support.html">Support Services</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="sustainability.html">Sustainability</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Carousel -->
+        <div class="card carousel">
+            <div class="carousel-slide active">
+                <img src="WhatsApp Image 2025-03-17 at 10.40.02 AM.jpeg" alt="Modern classroom">
+            </div>
+            <div class="carousel-slide">
+                <img src="WhatsApp Image 2025-03-17 at 10.40.05 AM.jpeg" alt="Playground">
+            </div>
+            <div class="carousel-slide">
+                <img src="WhatsApp Image 2025-03-17 at 10.40.02 AM.jpeg" alt="School library">
+            </div>
+            <button class="carousel-button prev" onclick="moveSlide(-1)">❮</button>
+            <button class="carousel-button next" onclick="moveSlide(1)">❯</button>
+        </div>
+
+        <!-- Facility Highlights -->
+        <div class="card">
+            <h2 class="section-title">Campus Features</h2>
+            <div class="grid-container facility-grid">
+                <div class="facility-item">
+                    <img src="WhatsApp Image 2025-03-17 at 10.40.02 AM.jpeg" alt="STEM lab">
+                    <h3>Innovation Lab</h3>
+                    <p>Robotics, coding, and 3D printing facilities</p>
+                </div>
+                <div class="facility-item">
+                    <img src="WhatsApp Image 2025-03-17 at 10.40.02 AM.jpeg" alt="Sports field">
+                    <h3>Athletic Complex</h3>
+                    <p>Olympic-sized field and track facilities</p>
+                </div>
+                <div class="facility-item">
+                    <img src="WhatsApp Image 2025-03-17 at 10.40.02 AM.jpeg" alt="Art studio">
+                    <h3>Creative Studio</h3>
+                    <p>Dedicated spaces for visual and performing arts</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Safety Protocols -->
+        <div class="card safety-section">
+            <div class="principal-content">
+                <div class="principal-text">
+                    <h2 class="section-title">Safety First</h2>
+                    <div class="safety-list">
+                        <div class="safety-item">
+                            <h3>Secure Access</h3>
+                            <p>Biometric entry systems and 24/7 security staff</p>
+                        </div>
+                        <div class="safety-item">
+                            <h3>Emergency Preparedness</h3>
+                            <p>Monthly drills and crisis response training</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="safety-infographic">
+                    <img src="WhatsApp Image 2025-03-17 at 10.40.02 AM.jpeg" alt="Security infographic">
+                    <a href="safety-plan.pdf" class="safety-button">View Safety Plan (PDF)</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Health & Wellness -->
+        <div class="card wellness-section">
+            <h2 class="section-title">Health & Wellness</h2>
+            <div class="principal-content">
+                <div class="wellness-image">
+                    <img src="medical.png" alt="Medical room">
+                </div>
+                <div class="wellness-text">
+                    <h3>Certified Care Team</h3>
+                    <ul>
+                        <li>On-site nurse available daily</li>
+                        <li>First aid-certified staff</li>
+                        <li>Allergy-aware meal plans</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tubafashe Academy School. All rights reserved.</p>
+    </footer>
+</body>
+</html>

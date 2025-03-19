@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUBAFASHE ACADEMY SCHOOL - Academic Programs</title>
+    <link rel="icon" href="Picture1.png" type="Image">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="Picture1.png" alt="School Logo" class="logo">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="academic-programs.html">Academics</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-trigger" onclick="toggleMobileMenu()">☰</div>
+    </header>
+
+    <nav class="mobile-nav" id="mobileNav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="academic-programs.html">Academic Programs</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="facilities.html">Facilities & Safety</a></li>
+            <li><a href="extracurricular.html">Extracurricular</a></li>
+            <li><a href="parent-resources.html">Parent Resources</a></li>
+            <li><a href="health.html">Health & Wellbeing</a></li>
+            <li><a href="policies.html">Policies</a></li>
+            <li><a href="support.html">Support Services</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="sustainability.html">Sustainability</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Banner -->
+        <div class="card hero-banner">
+            <img src="WhatsApp Image 2025-03-17 at 10.40.20 AM.jpeg" alt="Students in classroom">
+            <div class="hero-text">
+                <h1>Igniting Curiosity, Building Futures</h1>
+            </div>
+        </div>
+
+        <!-- Curriculum Highlights -->
+        <div class="card">
+            <h2 class="section-title">Our Curriculum</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="WhatsApp Image 2025-03-17 at 10.40.43 AM.jpeg" alt="Science experiment">
+                    <div class="grid-text">
+                        <h3>STEM Integration</h3>
+                        <p>Hands-on learning with robotics and coding projects</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="WhatsApp Image 2.jpeg" alt="Art project">
+                    <div class="grid-text">
+                        <h3>Arts Integration</h3>
+                        <p>Creative expression through music and visual arts</p>
+                    </div>
+                </div>
+            </div>
+            <p class="card-text">Our curriculum blends play-based learning with structured academics, fostering curiosity and foundational skills. Early years emphasize literacy and numeracy through interactive games, storytelling, and sensory activities, while primary students engage in project-based STEM/STEAM programs and collaborative problem-solving.</p>
+        </div>
+
+        <!-- Teaching Philosophy -->
+        <div class="card philosophy-section">
+            <div class="principal-content">
+                <div class="principal-text">
+                    <h2 class="section-title">Our Approach</h2>
+                    <p>Inspired by the <strong>Reggio Emilia approach</strong>, we view children as capable explorers and teachers as guides. Our student-centered classrooms encourage inquiry, hands-on discovery, and peer collaboration, nurturing independence and a lifelong love of learning.</p>
+                </div>
+                <img src="WhatsApp Image 2025-03-17 at 11.04.34 AM.jpeg" alt="Teacher with students" class="principal-photo">
+            </div>
+        </div>
+
+        <!-- Age Groups Tabs -->
+        <div class="card">
+            <h2 class="section-title">Program Structure</h2>
+            <div class="tab-container">
+                <button class="tab-button active" onclick="openTab(event, 'nursery')">Nursery (2-5 years)</button>
+                <button class="tab-button" onclick="openTab(event, 'primary')">Primary (5-11 years)</button>
+                
+                <div id="nursery" class="tab-content active">
+                    <img src="WhatsApp Image 2025-03-17 at 11.04.30 AM.jpeg" alt="Nursery students playing" class="tab-image">
+                    <p>Focus on social skills, motor development, and language through play, music, and outdoor exploration. Daily activities include sensory play, story time, and creative movement.</p>
+                </div>
+                
+                <div id="primary" class="tab-content">
+                    <img src="WhatsApp Image 2025-03-17 at 10.40.20 AM.jpeg" alt="Primary students learning" class="tab-image">
+                    <p>Structured yet flexible learning with core subjects enriched by coding, drama, and environmental studies. Features project-based learning and leadership opportunities.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Progress Tracking -->
+        <div class="card">
+            <h2 class="section-title">Progress Tracking</h2>
+            <div class="grid-container">
+                <div class="progress-item">
+                    <img src="WhatsApp Image 2025-03-17 at 11.04.30 AM.jpeg" alt="Student portfolio">
+                    <h3>Digital Portfolios</h3>
+                    <p>Showcase ongoing work and achievements</p>
+                </div>
+                <div class="progress-item">
+                    <img src="WhatsApp Image 2025-03-17 at 11.04.30 AM.jpeg" alt="Parent-teacher meeting">
+                    <h3>Quarterly Conferences</h3>
+                    <p>Regular updates on student development</p>
+                </div>
+            </div>
+            <div class="document-links">
+                <a href="progress-rubrics.pdf" class="doc-button">Assessment Rubrics (PDF)</a>
+                <a href="parent-guide.pdf" class="doc-button">Parent Guide (PDF)</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tubafashe Academy School. All rights reserved.</p>
+    </footer>
+</body>
+</html>

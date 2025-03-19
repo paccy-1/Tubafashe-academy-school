@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUBAFASHE ACADEMY SCHOOL - News & Updates</title>
+    <link rel="icon" href="Picture1.png" type="Image">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="Picture1.png" alt="School Logo" class="logo">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="academic-programs.html">Academics</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-trigger" onclick="toggleMobileMenu()">☰</div>
+    </header>
+
+    <nav class="mobile-nav" id="mobileNav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="academic-programs.html">Academic Programs</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="facilities.html">Facilities & Safety</a></li>
+            <li><a href="extracurricular.html">Extracurricular</a></li>
+            <li><a href="parent-resources.html">Parent Resources</a></li>
+            <li><a href="health.html">Health & Wellbeing</a></li>
+            <li><a href="policies.html">Policies</a></li>
+            <li><a href="support.html">Support Services</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="sustainability.html">Sustainability</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Banner -->
+        <div class="card news-hero">
+            <img src="WhatsApp Image 2025-03-17 at 10.40.02 AM.jpeg" alt="Students in classroom">
+            <div class="hero-text">
+                <h1>Latest News & Updates</h1>
+            </div>
+        </div>
+
+        <!-- Featured Story -->
+        <div class="card">
+            <div class="principal-content">
+               
+                <div class="featured-content">
+                    <h2 class="section-title">Annual Sports Day Recap</h2>
+                    <a href="sports-day-report.pdf" class="cta-button">
+                        📄 Download Full Report
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- News Grid -->
+        <div class="card">
+            <h2 class="section-title">Recent Updates</h2>
+            <div class="grid-container news-grid">
+                <div class="news-card">
+                    <img src="WhatsApp Image 2025-03-17 at 10.40.02 AM.jpeg" alt="Science fair project">
+                    <h3>STEM Fair Winners</h3>
+                    <a href="fair-winners.pdf" class="doc-link">View Results →</a>
+                </div>
+                <div class="news-card">
+                    <img src="WhatsApp Image 2025-03-17 at 10.40.02 AM.jpeg" alt="Award ceremony">
+                    <h3>Academic Achievements</h3>
+                    <a href="honor-roll.pdf" class="doc-link">View List →</a>
+                </div>
+                <div class="news-card">
+                    <img src="WhatsApp Image 2025-03-17 at 10.40.02 AM.jpeg" alt="Art exhibition">
+                    <h3>Art Week Highlights</h3>
+                    <a href="art-catalog.pdf" class="doc-link">View Catalog →</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Archive Section -->
+        <div class="card archive-section">
+            <h2 class="section-title">Newsletter Archive</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-button" onclick="toggleAccordion(this)">
+                        March 2024 Newsletter
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <a href="march-newsletter.pdf" class="doc-download">📘 Download PDF</a>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button" onclick="toggleAccordion(this)">
+                        February 2024 Newsletter
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <a href="february-newsletter.pdf" class="doc-download">📘 Download PDF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Section -->
+        <div class="card cta-section">
+            <h2 class="section-title">Stay Informed</h2>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="cta-button">Subscribe to Newsletter</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tubafashe Academy School. All rights reserved.</p>
+    </footer>
+</body>
+</html>
